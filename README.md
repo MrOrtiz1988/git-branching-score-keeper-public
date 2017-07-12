@@ -33,12 +33,12 @@ The client finally got back to us with answers to our questions. We can now make
 
 ## Git Branching Cheatsheet
 
-- `git branch BRANCH_NAME` - Create a branch with the name of **BRANCH_NAME**
+- `git branch BRANCH-NAME` - Create a branch with the name of **BRANCH-NAME**
 - `git branch` - Display the branch you're currently on
 - `git branch -a` - Show all available branches that have been created
-- `git checkout BRANCH_NAME` - Switch to the branch with name **BRANCH_NAME**
-- `git merge --no-ff BRANCH_NAME` - Merge **BRANCH_NAME** into the current branch (use `git branch` to determine the current branch)
-- `git pull origin BRANCH_NAME` - Pull down changes from the remote
+- `git checkout BRANCH-NAME` - Switch to the branch with name **BRANCH-NAME**
+- `git merge --no-ff BRANCH-NAME` - Merge **BRANCH-NAME** into the current branch (use `git branch` to determine the current branch)
+- `git pull origin BRANCH-NAME` - Pull down changes from the remote
 
 ## Git Branching Workflow
 
@@ -54,7 +54,7 @@ Make changes to your code to complete the task. After completing the task, commi
 ```
 git add .
 git commit -m "MESSAGE"
-git push origin feature_NAME
+git push origin feature-NAME
 ```
 
 When you're done with the feature, switch back to **master** and check for changes on the remote.
@@ -67,7 +67,7 @@ git pull
 Merge the code from your feature branch into **master**. Push the changes if everything merged without issue.
 
 ```
-git merge --no-ff master
+git merge --no-ff feature-NAME
 git push origin master
 ```
 
