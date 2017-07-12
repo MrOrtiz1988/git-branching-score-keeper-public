@@ -6,9 +6,9 @@ This exercise is intended to help practice git branching. Start by **forking** t
 
 ## Task List
 
-**COMPLETE THE TASKS IN ORDER**
-
 The client finally got back to us with answers to our questions. We can now make edits required to complete the Score Keeper website.
+
+> **NOTE: COMPLETE THE TASKS IN ORDER**
 
 ### Base Mode
 
@@ -39,3 +39,46 @@ The client finally got back to us with answers to our questions. We can now make
 - `git checkout BRANCH_NAME` - Switch to the branch with name **BRANCH_NAME**
 - `git merge --no-ff BRANCH_NAME` - Merge **BRANCH_NAME** into the current branch (use `git branch` to determine the current branch)
 - `git pull origin BRANCH_NAME` - Pull down changes from the remote
+
+## Git Branching Workflow
+
+Create a branch and switch to that branch. Before you branch, make sure you're on **master** by typing `git branch`.
+
+```
+git branch feature-NAME
+git checkout feature-NAME
+```
+
+Make changes to your code to complete the task. After completing the task, commit your changes.
+
+```
+git add .
+git commit -m "MESSAGE"
+git push origin feature_NAME
+```
+
+When you're done with the feature, switch back to **master** and check for changes on the remote.
+
+```
+git checkout master
+git pull
+```
+
+Merge the code from your feature branch into **master**. Push the changes if everything merged without issue.
+
+```
+git merge --no-ff master
+git push origin master
+```
+
+In the event of a merge conflict, look at any impacted files. Make the required changes and commit them.
+
+```
+git add .
+git commit
+git push origin master
+```
+
+Repeat.
+
+
