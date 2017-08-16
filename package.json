@@ -1,8 +1,8 @@
 {
-  "name": "antares_score_keeper",
+  "name": "git-branching-score-keeper",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/server.js"
@@ -10,12 +10,11 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PrimeAcademy/antares_score_keeper/issues"
+    "url": "https://github.com/PrimeAcademy/git-branching-score-keeper/issues"
   },
-  "homepage": "https://github.com/PrimeAcademy/antares_score_keeper#readme",
+  "homepage": "https://github.com/PrimeAcademy/git-branching-score-keeper#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "express": "^4.15.3",
-    "jquery": "^3.2.1"
+    "express": "^4.15.3"
   }
 }

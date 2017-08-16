@@ -1,4 +1,4 @@
-# Antares Score Keeper
+# Git Branching Score Keeper
 
 This exercise is intended to help practice git branching. Start by **forking** this repository. Create a **new feature branch** for each of the tasks listed below. You will only be making changes to the **index.html**, **styles.css** and **client.js** files.
 
@@ -18,8 +18,8 @@ The client finally got back to us with answers to our questions. We can now make
 
 - [ ] **feature-page-title** - The title of the page should read **Battle of the Fruits**
 - [ ] **feature-bg-colors** - The team divs (with classes `.team1` & `.team2`) should have background colors that match the team names
-- [ ] **feature-count-scores** - Add click handlers so that when the score buttons are clicked, the counts increase & decrease
 - [ ] **feature-footer** - Create a footer at the bottom of the page that reads 'Made by Tomatoes inc.'
+- [ ] **feature-count-scores** - Add click handlers so that when the score buttons are clicked, the counts increase & decrease, this will be your largest feature because you will need to bring in your front-end library. Put the library in a `vendors` folder inside of `public`
 
 
 ### Hard Mode
