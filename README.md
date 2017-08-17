@@ -82,3 +82,56 @@ git push origin master
 Repeat.
 
 
+## Git Branching Workflow with Github Pull Requests
+
+### The first time (project setup)
+
+On your github project repo. Click the `settings` tab and then click `colaborators` in the left-side menu. Add your team members.
+
+After adding colaborators, click the `settings` tab and then click `branches` in the left-side menu. Click `Choose Branch` and select `master`. Select the following:
+
+- [ ] Protect this branch
+  - [ ] Require pull request reviews before merging
+    - [ ] Dismiss stale pull request approvals when new commits are pushed
+- [ ] Include administrators
+
+### Every time
+
+Switch to the master branch. Create a branch and switch to that branch.
+
+```
+git checkout master
+git branch feature-NAME
+git checkout feature-NAME
+```
+
+These three commands are the same as
+
+```
+git checkout -b feature-Name master
+```
+
+Git add, commit, and push as usual
+
+```
+git add .
+git commit -m "MESSAGE"
+git push
+```
+
+When you're done with the feature, it's time to create a Pull Request. On github, click the `New Pull Request` button. Make sure the `base` is `master` and `compare` is your feature branch.
+
+Click `Create Pull Request` and add a `Reviewer` from your team.
+
+If the reviewer approved the Pull Request, then you may marge the pull request into master.
+
+To keep your code up to date on your computer, switch to master and pull down the changes.
+
+```
+git checkout master
+git pull
+```
+
+Repeat.
+
+
