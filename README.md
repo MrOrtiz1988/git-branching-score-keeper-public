@@ -1,8 +1,6 @@
 # Git Branching Score Keeper
 
-This exercise is intended to help practice git branching. Start by **forking** this repository. Create a **new feature branch** for each of the tasks listed below. You will only be making changes to the **index.html**, **styles.css** and **client.js** files.
-
-> NOTE: The instructors may jump in and make unexpected changes to your **master** branch so keep your eye out for merge conflicts.
+This exercise is intended to help practice git branching. Start by **forking** this repository. Create a **new feature branch** for each of the tasks listed below. You will only be making changes to the **index.html** and **styles.css** files.
 
 ## Task List
 
@@ -19,13 +17,16 @@ The client finally got back to us with answers to our questions. We can now make
 - [ ] **feature-page-title** - The title of the page should read **Battle of the Fruits**
 - [ ] **feature-bg-colors** - The team divs (with classes `.team1` & `.team2`) should have background colors that match the team names
 - [ ] **feature-footer** - Create a footer at the bottom of the page that reads 'Made by Tomatoes inc.'
-- [ ] **feature-count-scores** - Add click handlers so that when the score buttons are clicked, the counts increase & decrease, this will be your largest feature because you will need to bring in your front-end library. Put the library in a `vendors` folder inside of `public`
 
 
 ### Hard Mode
 
-- [ ] **feature-max-score** - When either team reaches a score of 21, alert to the user the 'Team NAME has won!'
 - [ ] **feature-styling** - Add styling to make the page look better
+
+### Additional Resources
+
+- More Git practice: [https://try.github.io/levels/1/challenges/1](https://try.github.io/levels/1/challenges/1)
+- Pull requests: [https://help.github.com/articles/creating-a-pull-request/](https://help.github.com/articles/creating-a-pull-request/)
 
 
 ## Git Branching Cheatsheet
