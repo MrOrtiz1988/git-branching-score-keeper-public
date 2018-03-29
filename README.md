@@ -1,6 +1,6 @@
 # Git Branching Score Keeper
 
-This exercise is intended to help practice git branching. Start by **forking** this repository. Create a **new feature branch** for each of the tasks listed below. You will only be making changes to the **index.html** and **styles.css** files.
+This exercise is intended to help practice git branching. Start by **forking** this repository. Create a **new feature branch** for each of the tasks listed below. You will only be making changes to the **index.html** and **styles.css** files. **Don't over think this assignment. These are all simple tasks. The goal is to practice branching.**
 
 ## Task List
 
