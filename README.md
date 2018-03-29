@@ -27,9 +27,6 @@ The client finally got back to us with answers to our questions. We can now make
 - [ ] **feature-max-score** - When either team reaches a score of 21, alert to the user the 'Team NAME has won!'
 - [ ] **feature-styling** - Add styling to make the page look better
 
-### Pro Mode
-
-- [ ] **feature-deploy** - Deploy your app to Heroku (no database for this one)
 
 ## Git Branching Cheatsheet
 
