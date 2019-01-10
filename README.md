@@ -6,7 +6,7 @@ This exercise is intended to help practice git branching. Start by **forking** t
 
 The client finally got back to us with answers to our questions. We can now make edits required to complete the Score Keeper website.
 
-> **NOTE: COMPLETE THE TASKS IN ORDER**
+> **NOTE: COMPLETE THE TASKS IN ORDER & MERGE EACH BRANCH BACK INTO MASTER**
 
 ### Base Mode
 
