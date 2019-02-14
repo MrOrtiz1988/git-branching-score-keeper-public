@@ -1,6 +1,6 @@
 # Git Branching Score Keeper
 
-This exercise is intended to help practice git branching. Start by **forking** this repository. Create a **new feature branch** for each of the tasks listed below. You will only be making changes to the **index.html** and **styles.css** files. **Don't over think this assignment. These are all simple tasks. The goal is to practice branching.**
+This exercise is intended to help practice git branching. Start by having one group member **fork** this repository. All group members will **clone** the forked repository. Create a **new feature branch** for each of the tasks listed below. You will only be making changes to the **index.html** and **styles.css** files. **Don't over think this assignment. The focus is not on the tasks. The goal is to practice branching.**
 
 ## Task List
 
@@ -19,7 +19,7 @@ The client finally got back to us with answers to our questions. We can now make
 - [ ] **feature-footer** - Create a footer at the bottom of the page that reads 'Made by Tomatoes inc.'
 
 
-### Hard Mode
+### Stretch Goals
 
 - [ ] **feature-styling** - Add styling to make the page look better
 
@@ -38,60 +38,22 @@ The client finally got back to us with answers to our questions. We can now make
 - `git merge --no-ff BRANCH-NAME` - Merge **BRANCH-NAME** into the current branch (use `git branch` to determine the current branch)
 - `git pull origin BRANCH-NAME` - Pull down changes from the remote
 
-## Git Branching Workflow
-
-Create a branch and switch to that branch. Before you branch, make sure you're on **master** by typing `git branch`.
-
-```
-git branch feature-NAME
-git checkout feature-NAME
-```
-
-Make changes to your code to complete the task. After completing the task, commit your changes.
-
-```
-git add .
-git commit -m "MESSAGE"
-git push origin feature-NAME
-```
-
-When you're done with the feature, switch back to **master** and check for changes on the remote.
-
-```
-git checkout master
-git pull
-```
-
-Merge the code from your feature branch into **master**. Push the changes if everything merged without issue.
-
-```
-git merge --no-ff feature-NAME
-git push origin master
-```
-
-In the event of a merge conflict, look at any impacted files. Make the required changes and commit them.
-
-```
-git add .
-git commit
-git push origin master
-```
-
-Repeat.
-
-
 ## Git Branching Workflow with Github Pull Requests
 
 ### The first time (project setup)
 
-On your github project repo. Click the `settings` tab and then click `colaborators` in the left-side menu. Add your team members.
+On your github project repo. Click the `settings` tab and then click `collaborators` in the left-side menu. Add your team members.
 
-After adding colaborators, click the `settings` tab and then click `branches` in the left-side menu. Click `Choose Branch` and select `master`. Select the following:
+After adding collaborators, click the `settings` tab and then click `branches` in the left-side menu. Click `Choose Branch` and select `master`. Select the following:
 
 - [ ] Protect this branch
   - [ ] Require pull request reviews before merging
     - [ ] Dismiss stale pull request approvals when new commits are pushed
 - [ ] Include administrators
+
+```
+git clone
+```
 
 ### Every time
 
@@ -122,6 +84,27 @@ When you're done with the feature, it's time to create a Pull Request. On github
 Click `Create Pull Request` and add a `Reviewer` from your team.
 
 If the reviewer approved the Pull Request, then you may marge the pull request into master.
+
+### If there are conflicts
+
+```
+git checkout master
+git pull
+git checkout feature-NAME
+git merge --no-ff master
+```
+
+Resolve the conflicts by making the files look how you want them to look.
+
+```
+git add .
+git commit -m "resolve conflicts"
+git push
+```
+
+Dismiss the previous reviews on GitHub. Ask for a re-review of your Pull Request
+
+### After merge is complete
 
 To keep your code up to date on your computer, switch to master and pull down the changes.
 
