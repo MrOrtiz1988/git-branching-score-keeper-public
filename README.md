@@ -10,6 +10,8 @@ The client finally got back to us with answers to our questions. We can now make
 
 ### Base Mode
 
+Alternate tasks between each programmer's computer so that the PRs come from different GitHub users.
+
 - [ ] **feature-team-names** - Team names have been assigned, they should read **Team Tomato** and **Team Plum**
 
    > NOTE: Did you remember to branch for this feature?
