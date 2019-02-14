@@ -36,6 +36,7 @@ The client finally got back to us with answers to our questions. We can now make
 - `git branch -a` - Show all available branches that have been created
 - `git checkout BRANCH-NAME` - Switch to the branch with name **BRANCH-NAME**
 - `git merge --no-ff BRANCH-NAME` - Merge **BRANCH-NAME** into the current branch (use `git branch` to determine the current branch)
+   - If there are no conflicts, you may be thrown into `ViM`. Type `:wq` to accept the merge. Otherwise you may need to resolve the conflicts (check the section below)
 - `git pull origin BRANCH-NAME` - Pull down changes from the remote
 
 ## Git Branching Workflow with Github Pull Requests
@@ -94,7 +95,7 @@ git checkout feature-NAME
 git merge --no-ff master
 ```
 
-Resolve the conflicts by making the files look how you want them to look.
+Resolve the conflicts by making the files look how you want them to look. If there are no conflicts, you may be thrown into `ViM`. Type `:wq` to accept the merge.
 
 ```
 git add .
