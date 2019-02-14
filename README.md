@@ -86,7 +86,7 @@ When you're done with the feature, it's time to create a Pull Request. On github
 
 Click `Create Pull Request` and add a `Reviewer` from your team.
 
-If the reviewer approved the Pull Request, then you may marge the pull request into master.
+If the reviewer approved the Pull Request, then you should merge the pull request into master.
 
 ### If there are conflicts
 
