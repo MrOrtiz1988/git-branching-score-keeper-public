@@ -84,7 +84,7 @@ git commit -m "MESSAGE"
 git push
 ```
 
-When you're done with the feature, it's time to create a Pull Request. On github, click the `New Pull Request` button. Make sure the `base` is `master` and `compare` is your feature branch.
+When you're done with the feature, it's time to create a Pull Request. On github, click the `New Pull Request` button. Make sure the base is the repository for your group. Not Prime Academy. If you make a PR to Prime Academy's branch, we will reject it (that would give the answer to future cohorts). Make sure the `base` is `master` and `compare` is your feature branch.
 
 Click `Create Pull Request` and add a `Reviewer` from your team.
 
