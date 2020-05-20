@@ -37,9 +37,15 @@ The client finally got back to us with answers to our questions. We can now make
 
 If you cloned from your own account (if you forked first), then you can push your local commits back to GitHub. 
 
-When everything is merged back into the **master** branch, push up your completed project:
+When everything is merged back into the **master** branch, push up your completed project. 
 
-`$ git push origin master`
+Make sure you have checked out **master**
+
+> `$ git checkout master`
+
+Then push:
+
+> `$ git push origin master`
 
 
 ### Stretch Goals
