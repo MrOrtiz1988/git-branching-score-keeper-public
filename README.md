@@ -1,16 +1,28 @@
 # Git Branching Score Keeper
 
-This exercise is intended to help practice git branching. Start by having one group member **fork** this repository. All group members will **clone** the forked repository. Create a **new feature branch** for each of the tasks listed below. You will only be making changes to the **index.html** and **styles.css** files. **Don't over think this assignment. The focus is not on the tasks. The goal is to practice branching.**
+This exercise is intended to help practice git branching and merging using the CLI (terminal).
+
+## Set-up
+
+Start by **forking** this repository. Then **clone** the forked repository to your computer. 
+
+
+## Overview
+
+Create a **new feature branch** for each of the tasks listed below and then merging the changes back into **master** after each one. 
+
+You will only be making changes to the **index.html** and **styles.css** files. 
+
+**Don't over think this assignment. The focus is not on the tasks. The goal is to practice branching.**
+
 
 ## Task List
 
 The client finally got back to us with answers to our questions. We can now make edits required to complete the Score Keeper website.
 
-> **NOTE: COMPLETE THE TASKS IN ORDER & MERGE EACH BRANCH BACK INTO MASTER**
+> **NOTE: COMPLETE THE TASKS IN ORDER & MERGE EACH BRANCH BACK INTO MASTER BEFORE DOING THE NEXT ONE**
 
 ### Base Mode
-
-Alternate tasks between each programmer's computer so that the PRs come from different GitHub users.
 
 - [ ] **feature-team-names** - Team names have been assigned, they should read **Team Tomato** and **Team Plum**
    - After adding and committing, merge this branch back to `master`
