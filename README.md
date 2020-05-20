@@ -47,7 +47,7 @@ Alternate tasks between each programmer's computer so that the PRs come from dif
 
 ### The first time (project setup)
 
-On your github project repo. Click the `settings` tab and then click `collaborators` in the left-side menu. Add your team members.
+On your github project repo. Click the `settings` tab and then click `manage access` in the left-side menu, and then click on the green `Invite Teams or Members`. Add your team members.
 
 After adding collaborators, click the `settings` tab and then click `branches` in the left-side menu. Click `Choose Branch` and select `master`. Select the following:
 
@@ -84,7 +84,7 @@ git commit -m "MESSAGE"
 git push
 ```
 
-When you're done with the feature, it's time to create a Pull Request. On github, click the `New Pull Request` button. Make sure the base is the repository for your group. Not Prime Academy. If you make a PR to Prime Academy's branch, we will reject it (that would give the answer to future cohorts). Make sure the `base` is `master` and `compare` is your feature branch.
+When you're done with the feature, it's time to create a Pull Request. On github, click the `New Pull Request` button. Make sure the base is the repository for your group. Not Prime Academy. If you make a PR to Prime Academy's branch, we will reject it (that would give the answer to future cohorts). Make sure the `base` is `master` (YOUR master, and not Prime Academy's master) and `compare` is your feature branch.
 
 Click `Create Pull Request` and add a `Reviewer` from your team.
 
