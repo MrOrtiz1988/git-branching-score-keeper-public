@@ -33,6 +33,14 @@ The client finally got back to us with answers to our questions. We can now make
 - [ ] **feature-footer** - Create a footer at the bottom of the page that reads 'Made by Tomatoes inc.'
    - After adding and committing, merge this branch back to `master`
 
+### Pushing to GitHub
+
+If you cloned from your own account (if you forked first), then you can push your local commits back to GitHub. 
+
+When everything is merged back into the **master** branch, push up your completed project:
+
+`$ git push origin master`
+
 
 ### Stretch Goals
 
