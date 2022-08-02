@@ -45,7 +45,7 @@ Make sure you have checked out **main**
 
 Then push:
 
-> `$ git push origin master`
+> `$ git push origin main`
 
 
 ### Stretch Goals
